@@ -1,6 +1,6 @@
 # RESIN-EDITOR: A Schema-guided Hierarchical Event Graph Visualizer and Editor
 
-RESIN-Editor is an interactive graphical inteface tool for perform error analysis on schema matching tools. The tool is hosted at https://duynguyen2001.github.io/RESIN-EDITOR. Example files can be obtained in the `demonstration_files` folder and the demonstration video can found over [here](https://www.youtube.com/watch?v=fmW-GwPMrw0).
+RESIN-Editor is an interactive graphical inteface tool for perform error analysis on schema matching tools. The tool is hosted at https://blender-nlp.github.io/RESIN-Editor. Example files can be obtained in the `demonstration_files` folder and the demonstration video can found over [here](https://www.youtube.com/watch?v=fmW-GwPMrw0).
 
 # Prerequisites
 
