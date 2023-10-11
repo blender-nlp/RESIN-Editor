@@ -1,0 +1,198 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+    text-align: left;
+}
+
+.info-panel {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 400px;
+    background-color: white;
+    padding: 10px;
+    max-height: viewport;
+    border: 1px solid black;
+    z-index: 998;
+    box-shadow: 2px 2px 5px grey;
+    overflow-y: scroll;
+    max-height: 80vh;
+}
+.info-panel-enlarge {
+    position: fixed;
+    overflow-y: scroll;
+    top: 10px;
+    right: 10px;
+    left: 10px;
+    bottom: 10px;
+    z-index: 2000;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px grey;
+    z-index: 998;
+    max-height: 80vh;
+}
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.modal {
+    position: relative;
+    height: "10px";
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    z-index: 999;
+}
+
+.enlarge-button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.enlarge-button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.enlarged .enlarge-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.exit-button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.exit-button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.edit-button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+summary:after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid black;
+}
+details {
+    margin-bottom: 20px;
+}
+.clickable-text {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+}
+.form-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], textarea {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.anchor-button {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.anchor-button:hover {
+  background-color: transparent;
+}
+.trash-button {color: #ff0000;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 2px 4px;
+}
+
+.trash-button:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+.new-style-button {
+    border-radius: 50%;
+    padding: 2px;
+    color: #000000;
+}
+.new-style-button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}

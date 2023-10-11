@@ -1,0 +1,79 @@
+{
+  "name": "kairos-visualization",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://duynguyen2001.github.io/RESIN-EDITOR",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/material": "^5.14.11",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.5.1",
+    "dagre": "^0.8.5",
+    "eventemitter3": "^5.0.0",
+    "file-saver": "^2.0.5",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^5.0.0",
+    "idb": "^7.1.1",
+    "idb-keyval": "^6.2.1",
+    "json2typescript": "^1.5.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0-beta.1",
+    "react-color": "^2.19.3",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-fontawesome": "^1.7.1",
+    "react-player": "^2.13.0",
+    "react-resize-detector": "^9.1.0",
+    "react-rnd": "^10.4.1",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.7.3",
+    "react-use": "^17.4.0",
+    "reactflow": "^11.7.2",
+    "uuid": "^9.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "webpack-dev": "webpack serve --config ./webpack.config.js --mode development"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-syntax-decorators": "^7.22.5",
+    "css-loader": "^6.8.1",
+    "eslint-plugin-react": "^7.32.2",
+    "jszip": "^3.10.1",
+    "tailwindcss": "^3.3.1",
+    "typescript": "4.9.5",
+    "url-loader": "^4.1.1",
+    "webpack-cli": "^5.1.4"
+  }
+}

@@ -1,0 +1,65 @@
+/* EditableText.css */
+.text-style{
+    width: 100%;
+    height: fit-content;
+    resize: vertical;
+    font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+.text-style::placeholder{
+
+  color: #999;
+  font-style: italic;
+}
+.editable-text input.text-style-h2,
+.editable-text input.text-style-h3 {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+}
+.editable-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.editable-text-on-table {
+    display:inline-block;
+}
+.edit-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.save-button {
+    background-color: #000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.clickable-text {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.wd-data {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.7;
+    width: 200px;
+    z-index: 100;
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+    pointer-events: none;
+}
