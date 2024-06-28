@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/RESIN-Editor/static/css/main.428c11b1.css",
-    "main.js": "/RESIN-Editor/static/js/main.2a3a580a.js",
-    "static/js/787.745c57d2.chunk.js": "/RESIN-Editor/static/js/787.745c57d2.chunk.js",
+    "main.css": "/RESIN-Editor/static/css/main.c69981a9.css",
+    "main.js": "/RESIN-Editor/static/js/main.80d28c2a.js",
+    "static/js/787.a232e99c.chunk.js": "/RESIN-Editor/static/js/787.a232e99c.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/RESIN-Editor/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/RESIN-Editor/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/RESIN-Editor/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/RESIN-Editor/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/RESIN-Editor/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/RESIN-Editor/index.html",
-    "main.428c11b1.css.map": "/RESIN-Editor/static/css/main.428c11b1.css.map",
-    "main.2a3a580a.js.map": "/RESIN-Editor/static/js/main.2a3a580a.js.map",
-    "787.745c57d2.chunk.js.map": "/RESIN-Editor/static/js/787.745c57d2.chunk.js.map"
+    "main.c69981a9.css.map": "/RESIN-Editor/static/css/main.c69981a9.css.map",
+    "main.80d28c2a.js.map": "/RESIN-Editor/static/js/main.80d28c2a.js.map",
+    "787.a232e99c.chunk.js.map": "/RESIN-Editor/static/js/787.a232e99c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.428c11b1.css",
-    "static/js/main.2a3a580a.js"
+    "static/css/main.c69981a9.css",
+    "static/js/main.80d28c2a.js"
   ]
 }
