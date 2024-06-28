@@ -24,12 +24,14 @@ export function TA1TableInfoPanel({
     const loadOptions = async (inputValue, callback) => {
         // if (!inputValue) return callback([]);
         const options = [];
-        entitiesRelatedEventMap.forEach((entity, key) => {
+        mapEntities.forEach((entity, key) => {
+            console.log("entity", entity);
             options.push({
                 value: key,
-                label: mapEntities.get(key).name,
+                label: entity.name,
             });
         });
+        console.log("options existing", options);
         if (!inputValue) {
             setTimeout(
                 () => callback([
@@ -88,8 +90,8 @@ export function TA1TableInfoPanel({
         return callback(totalOptions);
     };
     const getDisplayParticipantArray = (data, parentId, showAllEntities) => {
-        console.log("dataoverhere", data);
-        console.log("parentId", parentId);
+        // console.log("dataoverhere", data);
+        // console.log("parentId", parentId);
         return data.map((participant) => {
             // console.log("entitiesMap", mapEntities);
             const entityObject = mapEntities.get(participant.entity);

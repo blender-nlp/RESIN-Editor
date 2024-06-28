@@ -73,7 +73,7 @@ const getLayoutedElementsNested = (
     const parentMap = new Map();
     chosenNodes.forEach((node) => {
         const currentNode = mapNodes.get(node);
-        console.log("currentNode", currentNode);
+        // console.log("currentNode", currentNode);
         if (currentNode.children) {
             currentNode.children.forEach((child) => {
                 parentMap.set(child, node);

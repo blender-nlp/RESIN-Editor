@@ -67,8 +67,16 @@ export class UniqueString implements JsonCustomConvert<string> {
     static reset() {
         UniqueString.uniqueStrings = new Set<string>();
     }
-    static getUniqueStringWithForm(first: string, last: string): string {
-        let uniqueString = `${first}${randomFiveDigits()}${last}`;
+    static getUniqueStringWithForm(
+        first: string,
+        last: string,
+        num = 5
+    ): string {
+        let uniqueString =
+            num === 4
+                ? `${first}${randomFourDigits()}${last}`
+                : `${first}${randomFiveDigits()}${last}`;
+
         while (UniqueString.uniqueStrings.has(uniqueString)) {
             // console.log("Duplicate String", uniqueString);
             uniqueString = `${first}${randomFiveDigits()}${last}`;
@@ -101,4 +109,7 @@ export class LowerCaseString implements JsonCustomConvert<string> {
 
 const randomFiveDigits = () => {
     return Math.floor(10000 + Math.random() * 90000);
+};
+const randomFourDigits = () => {
+    return Math.floor(1000 + Math.random() * 9000);
 };
